@@ -1,0 +1,9 @@
+<!-- home.html -->
+<form action="{{ url_for('run_code') }}" method="post">
+    <label for="code">Python Code:</label><br>
+    <textarea id="code" name="code" rows="4" cols="50"></textarea><br>
+    <input type="submit" value="Run">
+</form>
+{% if output %}
+<p>Output: {{ output }}</p>
+{% endif %}
