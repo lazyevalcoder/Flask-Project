@@ -1,2 +1,6 @@
 # Flask-Project
 Python playground app
+
+In the playground, left side section is the input section and has an option to type the code in the input area with a text and a run button. The right side section is for the output.
+
+The user can type the code in the input box and click on the run button. Once the run is initiated, the app will take the code from the input and run it in the background. Output or the error of the code is displayed in the backend.
